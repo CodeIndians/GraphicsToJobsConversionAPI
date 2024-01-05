@@ -125,7 +125,7 @@ class Program
 
             foreach (var job in jobs)
             {
-                Console.WriteLine($"Job Number : {jobNumber} ; Id: {job.Id}, Source Bucket: {job.Source}, Target Bucket: {job.Target}");
+                Console.WriteLine($"Job Number : {jobNumber++} ; Id: {job.Id}, Source Bucket: {job.Source}, Target Bucket: {job.Target}");
             }
         }
     }
